@@ -1,0 +1,5 @@
+# target = "https://ticket2.usj.co.jp/t/tkt/ei.do?t=3743|4157|3823|3840|3760|4182|3902|3913|3814&p=20|20|20|20|20|20|20|20|20&m=2"
+target = "https://ticket2.usj.co.jp/t/tkt/ei.do?t=3743|4157|3823|3840|3760|4182|3902|3913&p=20|20|20|20|20|20|20|20&m=2"
+new_target = "https://ticket2.usj.co.jp/t/tkt/ei.do?t=4648|4663|4655|4671|4628|4583|4614|4640|4716&p=20|20|20|20|20|20|20|20|20&m=2"
+prdUrl = "https://ticket2.usj.co.jp/t/tkt/cartinput.do?t="
+apiUrl = "https://ticket2.usj.co.jp/api/ticketinfo.do?ticketcode="
