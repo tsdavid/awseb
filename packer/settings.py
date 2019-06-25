@@ -25,7 +25,7 @@ SECRET_KEY = '(ym4#jpa&=mfg23v87*q&^#=hetx^05g09p_j8m2mcbt$2ez=^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.elasticbeanstalk.com']
 
 
 # Application definition
@@ -37,6 +37,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'conf',
 )
 
 MIDDLEWARE_CLASSES = (
