@@ -1,5 +1,6 @@
 from django.shortcuts import render
 
+from packer.usj.worker import usj
 
 """WORKING FUCTION WITH DEF USJ"""
 #
@@ -96,13 +97,13 @@ def run2(request):
 		from selenium import webdriver
 		from pyvirtualdisplay import Display
 
-	with Display():
-		bw = webdriver.Firefox()
-		try:
-			bw.get("http://www.google.com")
-			print(bw.title)
-		finally:
-			bw.quit()
+		with Display():
+			bw = webdriver.Firefox()
+			try:
+				bw.get("http://www.google.com")
+				print(bw.title)
+			finally:
+				bw.quit()
 		return request(request, 'board/run2.html')
 	else:
 		return render(request, 'board/run2.html')
