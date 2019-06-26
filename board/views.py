@@ -90,3 +90,19 @@ def run(request):
 		return render(request, 'board/cool.html')
 	else:
 		return render(request, 'board/run.html')
+
+def run2(request):
+	if request.method == 'POST' and 'run_script' in request.POST:
+		from selenium import webdriver
+		from pyvirtualdisplay import Display
+
+	with Display():
+		bw = webdriver.Firefox()
+		try:
+			bw.get("http://www.google.com")
+			print(bw.title)
+		finally:
+			bw.quit()
+		return request(request, 'board/run2.html')
+	else:
+		return render(request, 'board/run2.html')
