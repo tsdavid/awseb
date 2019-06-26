@@ -1,6 +1,5 @@
 from django.shortcuts import render
 
-from packer.usj.worker import usj
 
 """WORKING FUCTION WITH DEF USJ"""
 #
