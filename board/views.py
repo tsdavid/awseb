@@ -96,6 +96,14 @@ def run2(request):
 		from webbot import Browser
 		web = Browser()
 		web.go_to('google.com')
+		from selenium import webdriver
+		driver = webdriver.Firefox()
+		try:
+
+			driver.get("http://www.ipacktour.com")
+			import time
+			time.sleep(5)
+		finally:driver.quit()
 		return request(request, 'board/run2.html')
 	else:
 		return render(request, 'board/run2.html')
