@@ -1,0 +1,52 @@
+1561530241428	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ipack\\AppData\\Local\\Temp\\rust_mozprofile.FQ9DBjEj3Hpf"
+1561530316747	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ipack\\AppData\\Local\\Temp\\rust_mozprofile.kXuUIa8NRx80"
+1561530317248	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561530317249	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1561530317249	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561530317249	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561530319720	Marionette	INFO	Listening on port 56209
+1561530319980	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rwsentosa.com/bundles/js/jquery?v=_9QBGfzC8fygN-PCXaEz6XbVrWi_Cb6-mPBDXmKHW8Y1, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.rwsentosa.com/bundles/js/jquery?v=_9QBGfzC8fygN-PCXaEz6XbVrWi_Cb6-mPBDXmKHW8Y1, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.rwsentosa.com/bundles/js/jquery?v=_9QBGfzC8fygN-PCXaEz6XbVrWi_Cb6-mPBDXmKHW8Y1, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561481775439%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 10116, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1561378640/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10116, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1561378640/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1561378640/build/src/ipc/chromiu
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_StopIMEStateManagement) Closed channel: cannot send/recv
+
+m/src/chrome/
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E00A0,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+co
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+mmon/ipc_channel_win.cc, line 341
+[Child 11392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1561378640/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1561378640/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14768, Chrome_ChildThread] WAR
+###!!! [Child][MessageChannel] Error: (msgtype=0x1E0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: resource:///actors/AboutReaderChild.jsm, line 80: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1E002E,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x35011D,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x35011D,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x35011D,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x35011D,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+

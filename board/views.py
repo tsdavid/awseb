@@ -93,11 +93,8 @@ def run(request):
 
 def run2(request):
 	if request.method == 'POST' and 'run_script' in request.POST:
-		from webbot import Browser
-		web = Browser()
-		web.go_to('google.com')
 		from selenium import webdriver
-		driver = webdriver.Firefox()
+		driver = webdriver.Chrome()
 		try:
 
 			driver.get("http://www.ipacktour.com")
